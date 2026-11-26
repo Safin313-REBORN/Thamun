@@ -36,9 +36,14 @@ export default function TermsPage() {
         <section className="rounded-[12px] border-2 border-ink-border bg-surface p-5">
           <h2 className="font-serif text-[24px] font-semibold">Project details</h2>
           <p className="mt-2 text-[18px] text-muted">
-            Operated by the THAMUN Civic Safety Project (STEM2Connect AI Hackathon 2026). Contact:{" "}
-            <a href="mailto:hello@thamun.org" className="font-semibold text-civic-green underline underline-offset-4">
-              hello@thamun.org
+            Operated by the THAMUN Civic Safety Project (STEM2Connect AI Hackathon 2026). Source & contact:{" "}
+            <a
+              href="https://github.com/Safin313-REBORN/Thamun"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-civic-green underline underline-offset-4"
+            >
+              github.com/Safin313-REBORN/Thamun
             </a>
             .
           </p>

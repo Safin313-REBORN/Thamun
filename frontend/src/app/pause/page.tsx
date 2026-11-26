@@ -130,7 +130,7 @@ export default function PausePage() {
               type="tel"
               value={contactPhone}
               onChange={(e) => setContactPhone(e.target.value)}
-              placeholder="e.g. 01700000000"
+              placeholder="Enter phone number"
               className="mt-1 w-full min-h-[48px] rounded-[8px] border-2 border-ink-border bg-paper px-3 text-[17px]"
             />
           </div>

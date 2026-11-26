@@ -44,11 +44,16 @@ export default function PrivacyPage() {
         <section className="rounded-[12px] border-2 border-ink-border bg-surface p-5">
           <h2 className="font-serif text-[24px] font-semibold">Data deletion & emails</h2>
           <p className="mt-2 text-[18px] text-muted">
-            You can clear all data stored on this device immediately below, or email{" "}
-            <a href="mailto:hello@thamun.org" className="font-semibold text-civic-green underline underline-offset-4">
-              hello@thamun.org
-            </a>{" "}
-            for any deletion request. Optional emails include a one-click unsubscribe link.
+            You can clear all data stored on this device immediately below, or open a request on{" "}
+            <a
+              href="https://github.com/Safin313-REBORN/Thamun/issues"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-civic-green underline underline-offset-4"
+            >
+              GitHub Issues
+            </a>
+            . Optional emails include a one-click unsubscribe link.
           </p>
           <DataDeleteControl />
         </section>

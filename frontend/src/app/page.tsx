@@ -151,8 +151,13 @@ export default function LandingPage() {
             <Link href="/cookies" className="min-h-[44px] inline-flex items-center hover:underline underline-offset-4">
               Cookies
             </Link>
-            <a href="mailto:hello@thamun.org" className="min-h-[44px] inline-flex items-center text-civic-green hover:underline underline-offset-4">
-              hello@thamun.org
+            <a
+              href="https://github.com/Safin313-REBORN/Thamun"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="min-h-[44px] inline-flex items-center text-civic-green hover:underline underline-offset-4"
+            >
+              GitHub
             </a>
           </nav>
         </div>

@@ -3,7 +3,8 @@ import { Fraunces, Hind_Siliguri } from "next/font/google";
 import { SiteChrome } from "@/components/SiteChrome";
 import "./globals.css";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://thamun.org";
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://frontend-teal-nine-uu9z7wkv98.vercel.app";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
