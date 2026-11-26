@@ -1,0 +1,87 @@
+{
+  "intents": [
+    {
+      "id": "on_real_call",
+      "keywords": [
+        "on a call", "right now", "real call", "suspicious call", "scammer calling",
+        "asking for pin", "asking for code", "otp", "urgent", "rushing me",
+        "এখন কল", "পিন চাচ্ছে", "কোড চাচ্ছে", "ওটিপি", "তাড়া দিচ্ছে", "জরুরি",
+        "ekhon call", "pin cacche", "code cacche"
+      ],
+      "reply_en": "Stop and hang up right now. Real support never asks for your PIN, OTP, or secrecy. Open the Pause page to check the 3 questions and call someone you trust.",
+      "reply_bn": "এখনই কল কেটে দিন। আসল সাপোর্ট কখনো পিন, ওটিপি বা গোপন রাখতে বলে না। Pause পেজে গিয়ে ৩টি প্রশ্ন দেখুন এবং বিশ্বস্ত কাউকে কল করুন।",
+      "suggested_link": "/pause",
+      "suggested_label_en": "Open Pause & Check",
+      "suggested_label_bn": "Pause পেজ খুলুন"
+    },
+    {
+      "id": "how_it_works",
+      "keywords": [
+        "how does", "how it works", "what is thamun", "how to practice", "start",
+        "কিভাবে কাজ করে", "থামুন কি", "অনুশীলন", "শুরু",
+        "kivabe kaj kore", "thamun ki"
+      ],
+      "reply_en": "THAMUN lets you rehearse scam calls safely using the fictional wallet TakaPay. Pick a scenario, answer in Bangla or English, and see which tactic was used on you.",
+      "reply_bn": "থামুন আপনাকে কাল্পনিক 'টাকাপে' ওয়ালেটের মাধ্যমে নিরাপদে প্রতারণার কল অনুশীলন করতে সাহায্য করে। একটি পরিস্থিতি বেছে নিন, বাংলা বা ইংরেজিতে উত্তর দিন এবং বিশ্লেষণ দেখুন।",
+      "suggested_link": "/practice/takapay-support",
+      "suggested_label_en": "Start Practice Call",
+      "suggested_label_bn": "অনুশীলন শুরু করুন"
+    },
+    {
+      "id": "privacy_safety",
+      "keywords": [
+        "privacy", "store", "save", "log", "transcript", "safe", "data", "delete",
+        "নিরাপদ", "তথ্য", "সেভ", "সংরক্ষণ", "মুছে", "ডিলিট",
+        "nirapod", "data save"
+      ],
+      "reply_en": "THAMUN never logs or stores your replies or transcripts. Inputs resembling a PIN, OTP, phone, or card number are blocked in your browser before sending.",
+      "reply_bn": "থামুন কখনোই আপনার উত্তর বা কথোপকথন সংরক্ষণ করে না। পিন, ওটিপি, ফোন বা কার্ড নম্বরের মতো তথ্য ব্রাউজারেই আটকে দেওয়া হয়।",
+      "suggested_link": "/privacy",
+      "suggested_label_en": "Read Privacy Policy",
+      "suggested_label_bn": "প্রাইভেসি নীতি দেখুন"
+    },
+    {
+      "id": "takapay_fake",
+      "keywords": [
+        "takapay", "real wallet", "real bank", "bkash", "nagad", "rocket",
+        "টাকাপে", "আসল", "বিকাশ", "নগদ"
+      ],
+      "reply_en": "TakaPay is a 100% fictional mobile wallet made for safe practice. THAMUN never uses real brands, real logos, or real phone numbers.",
+      "reply_bn": "টাকাপে একটি সম্পূর্ণ কাল্পনিক মোবাইল ওয়ালেট, যা শুধু অনুশীলনের জন্য তৈরি। থামুন কখনোই আসল ব্র্যান্ড বা নম্বর ব্যবহার করে না।",
+      "suggested_link": "/practice/takapay-support",
+      "suggested_label_en": "Try TakaPay Practice",
+      "suggested_label_bn": "টাকাপে অনুশীলন করুন"
+    },
+    {
+      "id": "scam_tactics",
+      "keywords": [
+        "tactic", "prize", "lottery", "money sent by mistake", "wrong number", "job offer", "fee", "support agent",
+        "কৌশল", "পুরস্কার", "লটারি", "ভুল করে টাকা", "চাকরি", "ফি", "সাপোর্ট"
+      ],
+      "reply_en": "Common scam tactics are urgency ('10 minutes left'), fake authority ('official check'), secrecy ('tell no one'), prize lures, and advance fees. Always hang up and verify in your official app.",
+      "reply_bn": "প্রতারকদের সাধারণ কৌশল হলো তাড়াহুড়ো করা, ভুয়া পরিচয় দেওয়া, গোপন রাখতে বলা, পুরস্কারের লোভ বা অগ্রিম টাকা চাওয়া। সবসময় কল কেটে অফিসিয়াল অ্যাপে যাচাই করুন।",
+      "suggested_link": "/pause",
+      "suggested_label_en": "See 3 Warning Questions",
+      "suggested_label_bn": "৩টি সতর্কতা প্রশ্ন দেখুন"
+    },
+    {
+      "id": "greeting",
+      "keywords": [
+        "hi", "hello", "hey", "salam", "assalamu", "help", "nomoshkar",
+        "হ্যালো", "সালাম", "সাহায্য", "হাই", "কেমন আছেন"
+      ],
+      "reply_en": "Hello! I am the THAMUN Helper. Ask me how to practise a scam call, how to spot common tricks, or what to do if someone is pressuring you on a call right now.",
+      "reply_bn": "নমস্কার / সালাম! আমি থামুন সহায়ক। কীভাবে অনুশীলন করবেন, প্রতারকদের কৌশল চিনবেন, বা এখনই কোনো সন্দেহজনক কল এলে কী করবেন—আমাকে জিজ্ঞাসা করুন।",
+      "suggested_link": "/practice/takapay-support",
+      "suggested_label_en": "Start Practice Call",
+      "suggested_label_bn": "অনুশীলন শুরু করুন"
+    }
+  ],
+  "fallback": {
+    "reply_en": "I can help with scam-call safety, TakaPay practice, and privacy. If someone is rushing you or asking for a PIN/OTP right now, hang up and open Pause.",
+    "reply_bn": "আমি প্রতারণার কল থেকে সুরক্ষা, টাকাপে অনুশীলন ও প্রাইভেসি নিয়ে সাহায্য করতে পারি। কেউ এখনই পিন বা কোড চাইলে কল কেটে Pause পেজ দেখুন।",
+    "suggested_link": "/pause",
+    "suggested_label_en": "Open Pause & Check",
+    "suggested_label_bn": "Pause পেজ খুলুন"
+  }
+}

@@ -1,0 +1,16 @@
+# THAMUN (থামুন)
+
+> Meet the scam before it meets you.
+
+THAMUN is a bilingual (Bangla and English) scam-call rehearsal web app designed for parents, grandparents, and first-time mobile-money users.
+
+## Core Pages
+- `/`: Overview, how a practice round works, three safety questions, and FAQ.
+- `/practice/takapay-support`: Interactive practice call using the fictional wallet TakaPay.
+- `/pause`: Rapid 3-question check and local trusted-contact call screen for real-life calls.
+- `/privacy`: Privacy commitments, zero-transcript-storage guarantee, and educational limits.
+
+## Safety Commitments
+- Uses only the fictional wallet TakaPay (no real brands or phone numbers).
+- Client-side and server-side guards block PIN, OTP, phone, and card numbers.
+- Transcripts are never logged or stored.

@@ -1,0 +1,68 @@
+{
+  "scenarios": [
+    {
+      "id": "takapay-support",
+      "slug": "takapay-support",
+      "title_en": "TakaPay Support",
+      "title_bn": "টাকাপে সাপোর্ট",
+      "summary_en": "A caller claims your TakaPay account will be closed in 10 minutes unless you share a code.",
+      "summary_bn": "একজন কলার দাবি করছে কোড না দিলে ১০ মিনিটে আপনার টাকাপে অ্যাকাউন্ট বন্ধ হয়ে যাবে।",
+      "caller_role_en": "TakaPay Support (Practice caller)",
+      "caller_role_bn": "টাকাপে সাপোর্ট (অনুশীলন কলার)",
+      "root_step_id": "step_1_urgency",
+      "steps": {
+        "step_1_urgency": {
+          "id": "step_1_urgency",
+          "caller_line_en": "Sir/Ma'am, your TakaPay account will be closed in 10 minutes.",
+          "caller_line_bn": "স্যার, আপনার অ্যাকাউন্ট ১০ মিনিটে বন্ধ হয়ে যাবে।",
+          "tactic_hint": "urgency",
+          "allowed_next_ids": [
+            "step_2_otp",
+            "step_terminal_safe_hangup",
+            "step_terminal_compromised"
+          ],
+          "is_terminal": false
+        },
+        "step_2_otp": {
+          "id": "step_2_otp",
+          "caller_line_en": "Tell me the verification code right now, or your money will be frozen.",
+          "caller_line_bn": "কোডটা এখনই বলুন, না হলে টাকা আটকে যাবে।",
+          "tactic_hint": "otp_harvest",
+          "allowed_next_ids": [
+            "step_3_secrecy",
+            "step_terminal_safe_hangup",
+            "step_terminal_compromised"
+          ],
+          "is_terminal": false
+        },
+        "step_3_secrecy": {
+          "id": "step_3_secrecy",
+          "caller_line_en": "Do not tell anyone—this is an official security check. Just read the code.",
+          "caller_line_bn": "কাউকে বলবেন না, এটা অফিসিয়াল সিকিউরিটি চেক। শুধু কোডটা বলুন।",
+          "tactic_hint": "secrecy",
+          "allowed_next_ids": [
+            "step_terminal_safe_hangup",
+            "step_terminal_compromised"
+          ],
+          "is_terminal": false
+        },
+        "step_terminal_safe_hangup": {
+          "id": "step_terminal_safe_hangup",
+          "caller_line_en": "Call ended safely. Always verify inside the official TakaPay app.",
+          "caller_line_bn": "কল নিরাপদে শেষ হয়েছে। সবসময় অফিসিয়াল টাকাপে অ্যাপে যাচাই করুন।",
+          "tactic_hint": "none",
+          "allowed_next_ids": [],
+          "is_terminal": true
+        },
+        "step_terminal_compromised": {
+          "id": "step_terminal_compromised",
+          "caller_line_en": "Practice alert: you agreed to share a code or PIN. In real life, hang up immediately.",
+          "caller_line_bn": "সতর্কতা: অনুশীলনে আপনি কোড বা পিন দিতে রাজি হয়েছেন। বাস্তবে সাথে সাথে কল কেটে দিন।",
+          "tactic_hint": "otp_harvest",
+          "allowed_next_ids": [],
+          "is_terminal": true
+        }
+      }
+    }
+  ]
+}
