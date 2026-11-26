@@ -5,6 +5,13 @@ A civic-poster web app where parents, grandparents, and first-time mobile-money 
 
 > Built for **STEM2Connect AI Hackathon 2026 — Community Impact Track**.
 
+## Links
+
+- **Live Web App (Vercel):** https://frontend-teal-nine-uu9z7wkv98.vercel.app
+- **Demo Video (2-min MP4):** [demo/thamun-demo-2min.mp4](./demo/thamun-demo-2min.mp4)
+- **Pitch Deck (PPTX):** [THAMUN-Pitch-Deck.pptx](./THAMUN-Pitch-Deck.pptx)
+- **Figma Design:** https://www.figma.com/design/hOBmrmbjA0FMHQlvHQFzNH
+
 ---
 
 ## Safety & AI Disclosure
